@@ -6,6 +6,22 @@
         "shadcn@latest",
         "mcp"
       ]
+    },
+    "resend": {
+      "command": "node",
+      "args": [
+        "ABSOLUTE_PATH_TO_MCP_SEND_EMAIL_PROJECT/build/index.js"
+      ],
+      "env": {
+        "RESEND_API_KEY": "YOUR_RESEND_API_KEY"
+      }
+    },
+    "trigger": {
+      "command": "npx",
+      "args": [
+        "trigger.dev@latest",
+        "mcp"
+      ]
     }
   }
 }
