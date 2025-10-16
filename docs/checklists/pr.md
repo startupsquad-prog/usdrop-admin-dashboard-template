@@ -1,0 +1,6 @@
+- [ ] Issue & scope
+- [ ] Screenshots sm/md/lg, light/dark
+- [ ] No layout leaks
+- [ ] a11y pass
+- [ ] Tests or manual notes
+- [ ] Docs updated
